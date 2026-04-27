@@ -1,0 +1,47 @@
+# Database
+data/nifty50.db
+data/*.csv
+
+# API Keys — never commit these
+.env
+secrets.py
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+*.log
+
+# Model files (too large for GitHub)
+*.pkl
+*.joblib
+*.h5
+
+# Streamlit
+.streamlit/
